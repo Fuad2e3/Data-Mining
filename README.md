@@ -1,58 +1,80 @@
-# Data Mining
+<div align="center">
 
-Welcome to the **Data Mining** repository. This project focuses on various data mining techniques, including data visualization, normalization, and analysis using Python.
+# ⛏️ Data Mining & Analysis
 
-## Overview
+### *Exploration, Visualization, and Preprocessing*
 
-This repository contains implementations of fundamental data mining concepts. Currently, it includes:
-- **Data Visualization**: Box plots and bar charts using `seaborn` and `matplotlib`.
-- **Data Normalization**: Z-score normalization using `scipy.stats`.
-- **Exploratory Data Analysis (EDA)**: Basic data manipulation and statistical summaries.
+[![GitHub contributors](https://img.shields.io/github/contributors/Fuad2e3/Data-Mining?style=for-the-badge)](https://github.com/Fuad2e3/Data-Mining/graphs/contributors)
+[![GitHub stars](https://img.shields.io/github/stars/Fuad2e3/Data-Mining?style=for-the-badge)](https://github.com/Fuad2e3/Data-Mining/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Fuad2e3/Data-Mining?style=for-the-badge)](https://github.com/Fuad2e3/Data-Mining/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Fuad2e3/Data-Mining?style=for-the-badge)](https://github.com/Fuad2e3/Data-Mining/network/members)
+[![License](https://img.shields.io/github/license/Fuad2e3/Data-Mining?style=for-the-badge)](https://github.com/Fuad2e3/Data-Mining/blob/main/LICENSE)
 
-## Getting Started
+<br>
 
-To get started with this project, follow these steps:
+---
 
-### Prerequisites
+<p align="justify">
+This repository is dedicated to <b>Data Mining</b> techniques, focusing on statistical data exploration, visualization, and normalization. It provides a structured approach to understanding data distributions and preparing datasets for advanced machine learning models.
+</p>
 
-Make sure you have the following libraries installed:
+---
+
+</div>
+
+## 🚀 Key Features
+
+- **📊 Advanced Visualization**: Implementation of Boxplots and Bar Charts to identify outliers and data distribution patterns.
+- **⚙️ Data Preprocessing**: Comprehensive Z-Score Normalization for data scaling.
+- **📈 Statistical Analysis**: Exploration of data using core statistical metrics and libraries.
+- **📓 Interactive Notebooks**: Easy-to-follow Jupyter notebooks for experimentation.
+
+## 🛠️ Built With
+
+*   **Python**: Core programming language.
+*   **Pandas**: For data manipulation and analysis.
+*   **Matplotlib / Seaborn**: For high-quality data visualization.
+*   **SciPy**: For statistical computations and normalization.
+
+## 📂 Project Structure
 
 ```bash
-pip install pandas matplotlib seaborn scipy
+Data-Mining/
+│
+├── .github/                # GitHub configurations
+├── .idea/                  # Project settings
+├── Ploting.ipynb           # Main notebook for visualization and normalization
+├── LICENSE                 # Project license
+└── README.md               # Project documentation
 ```
 
-### Usage
+## 🏁 Getting Started
 
-You can explore the implementations in the provided Jupyter Notebook:
+To get a local copy up and running, follow these simple steps:
 
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/Fuad2e3/Data-Mining.git
-    ```
-2.  Open `Ploting.ipynb` in Jupyter Notebook or Google Colab to see the data mining techniques in action.
-
-## Project Structure
-
-```text
-├── LICENSE
-├── README.md
-├── Ploting.ipynb
-└── .gitattributes
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Fuad2e3/Data-Mining.git
 ```
 
-## Features
+### 2. Install Dependencies
+Make sure you have Python installed, then run:
+```bash
+pip install pandas matplotlib seaborn scipy notebook
+```
 
-- **Box Plot**: Visualizing the distribution of data and identifying outliers.
-- **Bar Chart**: Comparing categories and frequency of values.
-- **Z-Score Normalization**: Scaling data to have a mean of 0 and a standard deviation of 1.
+### 3. Run the Notebook
+```bash
+jupyter notebook Ploting.ipynb
+```
 
-## Contributing
-
-Contributions are welcome! If you have any suggestions or find any bugs, feel free to open an issue or create a pull request.
-
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-**Data Mining** | Built with ❤️ by [Fuad](https://github.com/Fuad2e3)
+
+<div align="center">
+   Developed with ❤️ by <b>Team Softece</b><br>
+  <b>Data Mining | Green University of Bangladesh</b>
+</div>
