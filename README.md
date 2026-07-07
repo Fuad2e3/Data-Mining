@@ -1,76 +1,58 @@
-<div align="center">
+# Data Mining
 
-# 🛡️ Bangla SMS Spam Detection
-### AI-Powered Bangla SMS Spam Detection System
+Welcome to the **Data Mining** repository. This project focuses on various data mining techniques, including data visualization, normalization, and analysis using Python.
 
-[![Language](https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Tool](https://img.shields.io/badge/Tool-Jupyter-f37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![Library](https://img.shields.io/badge/Library-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Library](https://img.shields.io/badge/Library-Scikit--Learn-f7931e?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+## Overview
 
-**Filtering unwanted Bangla messages with high precision using Machine Learning.**
+This repository contains implementations of fundamental data mining concepts. Currently, it includes:
+- **Data Visualization**: Box plots and bar charts using `seaborn` and `matplotlib`.
+- **Data Normalization**: Z-score normalization using `scipy.stats`.
+- **Exploratory Data Analysis (EDA)**: Basic data manipulation and statistical summaries.
 
-</div>
+## Getting Started
 
----
-
-## 📖 Overview
-
-This project focuses on the development of an intelligent system for detecting spam in Bangla SMS messages. Using advanced machine learning techniques, we provide a robust solution to filter unwanted messages, enhancing communication security and user experience for Bangla-speaking communities.
-
-## 🚀 Key Features
-
-- **Data Preprocessing**: Comprehensive cleaning, tokenization, and stemming of Bangla text.
-- **Model Training**: Implementation of various machine learning algorithms (like Naive Bayes) tailored for Bangla linguistics.
-- **Performance Comparison**: Rigorous evaluation and comparison of different models to find the most accurate detector.
-- **AI-Powered Precision**: Leveraging TF-IDF vectorization and advanced ML to ensure high accuracy.
-
-## 📁 Project Structure
-
-The repository is organized as follows:
-
-```
-Maching-Learning/
-├── notebooks/
-│   ├── 01_Preprocessing.ipynb      # Data cleaning and feature engineering
-│   ├── 02_Model_Training.ipynb     # Implementation of the primary ML model
-│   └── 03_Model_Comparison.ipynb   # Comparative analysis of multiple models
-├── LICENSE                         # MIT License
-└── README.md                       # Project documentation
-```
-
-## 📊 Dataset
-
-The project utilizes a Bangla SMS Spam Dataset:
-- **Source**: [Bangla Spam CSV](https://raw.githubusercontent.com/Ataullha/Machine-Learning-Lab/refs/heads/main/bangla_spam.csv)
-- **Processes**: Punctuation removal, stopword removal, tokenization, and stemming.
-
-## 🛠️ Getting Started
+To get started with this project, follow these steps:
 
 ### Prerequisites
-- Python 3.x
-- Jupyter Notebook or Google Colab
-- Libraries: `numpy`, `pandas`, `scikit-learn`, `nltk`
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Fuad2e3/Maching-Learning.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Maching-Learning
-   ```
-3. Explore the notebooks in the `notebooks/` directory.
+Make sure you have the following libraries installed:
+
+```bash
+pip install pandas matplotlib seaborn scipy
+```
+
+### Usage
+
+You can explore the implementations in the provided Jupyter Notebook:
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/Fuad2e3/Data-Mining.git
+    ```
+2.  Open `Ploting.ipynb` in Jupyter Notebook or Google Colab to see the data mining techniques in action.
+
+## Project Structure
+
+```text
+├── LICENSE
+├── README.md
+├── Ploting.ipynb
+└── .gitattributes
+```
+
+## Features
+
+- **Box Plot**: Visualizing the distribution of data and identifying outliers.
+- **Bar Chart**: Comparing categories and frequency of values.
+- **Z-Score Normalization**: Scaling data to have a mean of 0 and a standard deviation of 1.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or find any bugs, feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-<p align="center">
-  Developed with ❤️ by <b>Team Softece</b><br>
-  <i>Machine Learning | Green University of Bangladesh</i>
-</p>
+**Data Mining** | Built with ❤️ by [Fuad](https://github.com/Fuad2e3)
