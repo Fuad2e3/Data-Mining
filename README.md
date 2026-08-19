@@ -75,6 +75,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-   Developed with ❤️ by <b>Team Softece</b><br>
+   Developed with ❤️ by <b>Fuad</b><br>
   <b>Data Mining | Green University of Bangladesh</b>
 </div>
