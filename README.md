@@ -13,7 +13,7 @@
 
 ---
 
-[Explore Features](#-key-features) • [Project Structure](#-project-structure) • [Tech Stack](#-built-with) • [Getting Started](#-getting-started)
+[Explore Features](#-key-features) • [Project Structure](#-project-structure) • [Tech Stack](#-built-with)
 
 </div>
 
@@ -56,33 +56,11 @@ Data-Mining/
 
 ---
 
-## 🏁 Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Fuad2e3/Data-Mining.git
-cd Data-Mining
-```
-
-### 2. Install Dependencies
-```bash
-pip install pandas matplotlib seaborn scipy notebook
-```
-
-### 3. Launch Notebook
-```bash
-jupyter notebook Ploting.ipynb
-```
-
----
-
 ## 📄 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-**Developed with ❤️ by Fuad**  
-*Developed by Softece*  
-*Data Mining | Green University of Bangladesh*
+**Developed ❤️ by Softece**
 
 </div>
