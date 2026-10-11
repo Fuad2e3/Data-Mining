@@ -1,80 +1,88 @@
 <div align="center">
 
 # ⛏️ Data Mining & Analysis
+### **Exploration, Visualization, and Preprocessing**
 
-### *Exploration, Visualization, and Preprocessing*
+[![Language](https://img.shields.io/badge/Language-Python_3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Library](https://img.shields.io/badge/Library-Pandas_%26_Seaborn-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Course](https://img.shields.io/badge/Course-Data_Mining-8E75FF?style=for-the-badge)](https://green.edu.bd)
+[![Notebook](https://img.shields.io/badge/Format-Jupyter_Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](Ploting.ipynb)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-[![GitHub contributors](https://img.shields.io/github/contributors/Fuad2e3/Data-Mining?style=for-the-badge)](https://github.com/Fuad2e3/Data-Mining/graphs/contributors)
-[![GitHub stars](https://img.shields.io/github/stars/Fuad2e3/Data-Mining?style=for-the-badge)](https://github.com/Fuad2e3/Data-Mining/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/Fuad2e3/Data-Mining?style=for-the-badge)](https://github.com/Fuad2e3/Data-Mining/issues)
-[![GitHub forks](https://img.shields.io/github/forks/Fuad2e3/Data-Mining?style=for-the-badge)](https://github.com/Fuad2e3/Data-Mining/network/members)
-[![License](https://img.shields.io/github/license/Fuad2e3/Data-Mining?style=for-the-badge)](https://github.com/Fuad2e3/Data-Mining/blob/main/LICENSE)
-
-<br>
-
----
-
-<p align="justify">
-This repository is dedicated to <b>Data Mining</b> techniques, focusing on statistical data exploration, visualization, and normalization. It provides a structured approach to understanding data distributions and preparing datasets for advanced machine learning models.
-</p>
+**Statistical data exploration, distribution telemetry, outlier analysis, and normalization techniques.**
 
 ---
+
+[Explore Features](#-key-features) • [Project Structure](#-project-structure) • [Tech Stack](#-built-with) • [Getting Started](#-getting-started)
 
 </div>
 
+---
+
+## 📖 Overview
+This laboratory repository is dedicated to practical **Data Mining** algorithms and workflows, focusing on statistical distribution exploration, multi-attribute visualization, and feature normalization. It demonstrates best practices for sanitizing skewed variables, eliminating anomalies, and preparing feature vectors for machine learning models.
+
+---
+
 ## 🚀 Key Features
 
-- **📊 Advanced Visualization**: Implementation of Boxplots and Bar Charts to identify outliers and data distribution patterns.
-- **⚙️ Data Preprocessing**: Comprehensive Z-Score Normalization for data scaling.
-- **📈 Statistical Analysis**: Exploration of data using core statistical metrics and libraries.
-- **📓 Interactive Notebooks**: Easy-to-follow Jupyter notebooks for experimentation.
+- 📊 **Advanced Data Visualization:** Boxplots, violin plots, and density charts used to identify extreme outliers, quartiles, and skewness.
+- ⚙️ **Feature Scaling & Standardization:** Implementation of Z-score normalization and Min-Max scaling algorithms.
+- 📈 **Descriptive Statistics:** Telemetry covering mean, median, IQR, variance, and Pearson correlation matrices.
+- 📓 **Interactive Jupyter Notebook:** Clean, step-by-step reproducible analysis in `Ploting.ipynb`.
+
+---
 
 ## 🛠️ Built With
 
-*   **Python**: Core programming language.
-*   **Pandas**: For data manipulation and analysis.
-*   **Matplotlib / Seaborn**: For high-quality data visualization.
-*   **SciPy**: For statistical computations and normalization.
+| Tool | Purpose |
+| :--- | :--- |
+| **Python** | Primary scientific programming language |
+| **Pandas** | High-performance DataFrame manipulation |
+| **Matplotlib / Seaborn** | Statistical graphics and publication-quality plots |
+| **SciPy** | Mathematical statistics and z-score computations |
+| **Jupyter** | Interactive computing environment |
 
-## 📂 Project Structure
+---
 
-```bash
+## 📁 Project Structure
+
+```text
 Data-Mining/
-│
-├── .github/                # GitHub configurations
-├── .idea/                  # Project settings
-├── Ploting.ipynb           # Main notebook for visualization and normalization
-├── LICENSE                 # Project license
-└── README.md               # Project documentation
+├── Ploting.ipynb               # Primary data visualization and scaling notebook
+├── LICENSE                     # MIT License
+└── README.md                   # Project documentation
 ```
 
-## 🏁 Getting Started
+---
 
-To get a local copy up and running, follow these simple steps:
+## 🏁 Getting Started
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Fuad2e3/Data-Mining.git
+cd Data-Mining
 ```
 
 ### 2. Install Dependencies
-Make sure you have Python installed, then run:
 ```bash
 pip install pandas matplotlib seaborn scipy notebook
 ```
 
-### 3. Run the Notebook
+### 3. Launch Notebook
 ```bash
 jupyter notebook Ploting.ipynb
 ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
+## 📄 License
+Distributed under the MIT License. See `LICENSE` for more information.
+
 <div align="center">
-   Developed with ❤️ by <b>Fuad</b><br>
-  <b>Data Mining | Green University of Bangladesh</b>
+
+**Developed with ❤️ by Fuad**  
+*Developed by Softece*  
+*Data Mining | Green University of Bangladesh*
+
 </div>
